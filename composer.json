@@ -1,0 +1,27 @@
+{
+    "name": "coble/shopify-models",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ryan M. Coble",
+            "email": "ryan.m.coble@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "rocket-code/shopify": "~1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Coble\\ShopifyModels": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
